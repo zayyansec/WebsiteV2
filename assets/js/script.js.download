@@ -1,0 +1,9 @@
+const style = [
+  'background-image: url("https://media.giphy.com/media/3o85xoi6nNqJQJ95Qc/giphy.gif")',
+  'background-size: cover',
+  'font-size: 30px',
+  'color: #fff',
+  'line-height: 35px',
+  'color: rgb(0,255,255)'
+  ].join(';');
+console.log( '%cdont even think about copying my code', style);

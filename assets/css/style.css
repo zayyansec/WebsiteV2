@@ -1,0 +1,346 @@
+body {
+    background-color: rgb(19, 19, 19);
+  }
+    
+  html {
+    scroll-behavior: smooth;
+  }
+        
+  /* JetBrains Mono Font */
+        
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap');
+        
+  /* CSS for Background Video */
+        
+  .background-video {
+    position: fixed;
+    filter: grayscale(100%) brightness(25%);
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1000;
+  }
+      
+  /* Above Homepage */
+        
+  .above-homepage {
+    font-family: 'JetBrains Mono';
+    color: rgb(255, 255, 255, 0);
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.5px;
+  }
+        
+  /* My Repositories Button */
+        
+  .button-repositories {
+    font-family: 'JetBrains Mono';
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.5px;
+    text-decoration: underline;
+  }
+        
+  .button-repositories:hover {
+    color: white;
+  }
+  
+  /* Homepage Button */
+        
+  .button-homepage {
+    font-family: 'JetBrains Mono';
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.5px;
+    text-decoration: underline;
+  }
+        
+  .button-homepage:hover {
+    color: white;
+    text-decoration: underline;
+  }
+        
+        
+  /* CSS for G405T (Title) */
+        
+  .title {
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.3em;
+    padding: 0.5px;
+  }
+        
+  /* CSS for description (typewrite) */
+        
+  .typewrite {
+    font-size: 19.3px;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    position: absolute;
+    padding: 0.4px;
+    top: 47.70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+        
+  /* CSS for Repos */
+      
+  .repo-name {
+    font-size: 2em;
+    cursor:url(/assets/others/cursor.png)
+  }
+        
+  .repo {
+    list-style: none;
+    background-color: hsla(0, 0%, 60%, 0.541);
+    padding: 1em;
+    margin: 1em;
+    margin-right: 2.4%;
+    border-radius: 0.5em;
+    transition: 200ms;
+    font-family: 'JetBrains Mono', monospace;
+    color: black;
+    filter: blur(0.5px);
+    cursor:url(/assets/others/cursor.png)
+  }
+        
+  .repo:hover {
+    background-color: hsla(0, 0%, 81%, 0.329);
+    cursor:url(/assets/others/cursor.png)    
+  }
+      
+  .repo-border {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    cursor:url(/assets/others/cursor.png);
+  }
+        
+  .repo-title {
+    font-size: 5.5rem;
+    color: white;
+    font-family: 'JetBrains Mono', monospace;
+    position: absolute;
+    padding: 0.5px;
+    left: 50%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+  }
+        
+  /* Scrollbar */
+      
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+        
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+        
+  ::-webkit-scrollbar-thumb {
+    background-color: white;
+  }
+        
+  ::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+  }
+        
+  ::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+        
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #999999;
+    transition: 2000ms;
+  }
+        
+  /* Cursor */
+        
+  html{cursor:url(/assets/others/cursor.png),default;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+  
+  @media screen and (max-width: 1270px) {
+    body {
+      background-color: rgb(19, 19, 19);
+    }
+      
+    html {
+      scroll-behavior: smooth;
+    }
+          
+    /* JetBrains Mono Font */
+          
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap');
+          
+    /* CSS for Background Video */
+          
+    .background-video {
+      display: none;
+    }
+        
+    /* Above Homepage */
+          
+    .above-homepage {
+      font-family: 'JetBrains Mono';
+      color: rgb(255, 255, 255, 0);
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0.5px;
+    }
+          
+    /* My Repositories Button */
+          
+    .button-repositories {
+      font-family: 'JetBrains Mono';
+      font-size: 28px;
+      color: rgb(255, 255, 255);
+      position: absolute;
+      top: 7%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0.5px;
+      text-decoration: underline;
+    }
+          
+    /* Homepage Button */
+          
+    .button-homepage {
+      font-family: 'JetBrains Mono';
+      font-size: 28px;
+      color: rgb(255, 255, 255);
+      position: absolute;
+      top: 7%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 0.5px;
+      text-decoration: underline;
+    }
+          
+    .button-homepage:hover {
+      color: white;
+    }
+          
+          
+    /* CSS for G405T (Title) */
+          
+    .title {
+      color: white;
+      font-family: 'JetBrains Mono', monospace;
+      position: absolute;
+      top: 41%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 4.8em;
+      padding: 0.5px;
+    }
+          
+    /* CSS for description (typewrite) */
+          
+    .typewrite {
+      font-size: 19.7px;
+      color: white;
+      font-family: 'JetBrains Mono', monospace;
+      position: absolute;
+      padding: 0.25px;
+      top: 47.5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+          
+    /* CSS for Repos */
+        
+    .repo-name {
+      font-size: 2em;
+      cursor:url(/assets/others/cursor.png)
+    }
+          
+    .repo {
+      list-style: none;
+      background-color: hsla(0, 0%, 60%, 0.541);
+      padding: 1em;
+      margin: 1em;
+      margin-right: 2.4%;
+      border-radius: 0.5em;
+      transition: 200ms;
+      font-family: 'JetBrains Mono', monospace;
+      color: black;
+      filter: blur(0.5px);
+      cursor:url(/assets/others/cursor.png)
+    }
+          
+    .repo:hover {
+      background-color: hsla(0, 0%, 81%, 0.329);
+      cursor:url(/assets/others/cursor.png)    
+    }
+        
+    .repo-border {
+      margin-top: 55%;
+      margin-bottom: 3%;
+      cursor:url(/assets/others/cursor.png);
+    }
+          
+    .repo-title {
+      font-size: 5.5rem;
+      color: white;
+      font-family: 'JetBrains Mono', monospace;
+      position: absolute;
+      padding: 0.5px;
+      left: 50%;
+      top: 20%;
+      transform: translate(-50%, -50%);
+    }
+          
+    /* Scrollbar */
+        
+    ::-webkit-scrollbar {
+      width: 20px;
+    }
+          
+    ::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+          
+    ::-webkit-scrollbar-thumb {
+      background-color: white;
+    }
+          
+    ::-webkit-scrollbar-thumb {
+      background-color: white;
+      border-radius: 20px;
+    }
+          
+    ::-webkit-scrollbar-thumb {
+      background-color: white;
+      border-radius: 20px;
+      border: 6px solid transparent;
+      background-clip: content-box;
+    }
+          
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #999999;
+      transition: 2000ms;
+    }
+          
+    /* Cursor */
+          
+    html{cursor:url(/assets/others/cursor.png),default;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+  }
